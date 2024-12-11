@@ -60,7 +60,9 @@ python 2d_Solver_steadyFlow.py --Nx 100 --Ny 100 --Bc top=10 bottom=0 left=0 rig
 - **Textual Solution**: A matrix representing the computed temperatures at all nodes.
 - **Heat Map**: A visual representation of the temperature distribution.
 
-![image](https://github.com/user-attachments/assets/65156c63-645d-4b3b-97ad-3408e9fa44cb)
+![Figure_1](https://github.com/user-attachments/assets/46019e48-4c07-44f7-9fb2-212f398db377)
+
+
 
 ## Project Structure
 - `2d_Solver_steadyFlow.py`: Main Python script containing the solver and plotting functionalities.
