@@ -69,7 +69,7 @@ python 2d_Solver_steadyFlow.py --Nx 150 --Ny 150 --Bc top=10 bottom=0 left=0 rig
 
 To generate Animated Plots , set the animate flag to True
 ```bash
-python 2d_Solver_steadyFlow.py --Nx 150 --Ny 150 --Bc top=100 bottom=0 left=75 right=50 --plot=True --Animate=True
+python 2d_Solver_steadyFlow.py --Nx 50 --Ny 50 --Bc top=100 bottom=0 left=75 right=50 --plot=True --Animate=True
 ```
 **Animated Output**
 
