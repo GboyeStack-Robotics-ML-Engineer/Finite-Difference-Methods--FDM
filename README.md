@@ -50,7 +50,7 @@ python -m 2d_Solver_steadyFlow --Nx <Nx> --Ny <Ny> --Bc <boundary_conditions> --
 
 ### Example
 ```bash
-python 2d_Solver_steadyFlow.py --Nx 100 --Ny 100 --Bc top=10 bottom=0 left=0 right=0 --plot True
+python 2d_Solver_steadyFlow.py --Nx 150 --Ny 150 --Bc top=10 bottom=0 left=0 right=0 --plot True
 ```
 
 ## How It Works
@@ -65,7 +65,7 @@ python 2d_Solver_steadyFlow.py --Nx 100 --Ny 100 --Bc top=10 bottom=0 left=0 rig
 
 ![Figure_1](https://github.com/user-attachments/assets/46019e48-4c07-44f7-9fb2-212f398db377)
 
-
+**NOTE :** The larger the values of Nx and Ny , the more computation required . Also Nx must Ny
 
 ## Project Structure
 - `2d_Solver_steadyFlow.py`: Main Python script containing the solver and plotting functionalities.
