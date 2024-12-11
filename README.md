@@ -29,10 +29,13 @@ Install the required packages using pip:
 ```bash
 pip install -r requirements.txt
 ```
-
-Run the script with the following command:
+Navigate to the Scripts directory:
 ```bash
-python -m 2d_Solver_steadyFlow.py --Nx <Nx> --Ny <Ny> --Bc <boundary_conditions> --plot <True/False>
+cd Scripts\
+```
+Run the 2d solver script with the following command:
+```bash
+python -m 2d_Solver_steadyFlow --Nx <Nx> --Ny <Ny> --Bc <boundary_conditions> --plot <True/False>
 ```
 
 ### Parameters
