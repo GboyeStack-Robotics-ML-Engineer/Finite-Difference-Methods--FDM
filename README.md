@@ -67,6 +67,14 @@ python 2d_Solver_steadyFlow.py --Nx 150 --Ny 150 --Bc top=10 bottom=0 left=0 rig
 
 **NOTE :** The larger the values of Nx and Ny , the more computation required . Also Nx must Ny
 
+To generate Animated Plots , set the animate flag to True
+```bash
+python 2d_Solver_steadyFlow.py --Nx 150 --Ny 150 --Bc top=10 bottom=0 left=0 right=0 --plot=True --Animate=True
+```
+**Animated Output**
+https://github.com/user-attachments/assets/df170555-1754-40ec-b6ad-46f63a0e8d69
+
+
 ## Project Structure
 - `2d_Solver_steadyFlow.py`: Main Python script containing the solver and plotting functionalities.
 
