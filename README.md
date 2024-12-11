@@ -69,13 +69,11 @@ python 2d_Solver_steadyFlow.py --Nx 150 --Ny 150 --Bc top=10 bottom=0 left=0 rig
 
 To generate Animated Plots , set the animate flag to True
 ```bash
-python 2d_Solver_steadyFlow.py --Nx 150 --Ny 150 --Bc top=10 bottom=0 left=0 right=0 --plot=True --Animate=True
+python 2d_Solver_steadyFlow.py --Nx 150 --Ny 150 --Bc top=100 bottom=0 left=75 right=50 --plot=True --Animate=True
 ```
 **Animated Output**
-https://github.com/GboyeStack-Robotics-ML-Engineer/Finite-Difference-Methods--FDM/blob/main/Results/Heat%20Distribution.mp4
 
-
-
+https://github.com/user-attachments/assets/34604caf-91dc-44d2-b1ea-218f9c71082b
 
 ## Project Structure
 - `2d_Solver_steadyFlow.py`: Main Python script containing the solver and plotting functionalities.
